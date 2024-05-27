@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  border: 2px solid red;
+  width: 1550px;
+  size: 15px;
+  line-height: 26px;
+  font: arial;
+}
+
+/* хоёрдугаар хэсэг */
+
+.text1 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 14.95px;
+  color: #f4f7fa;
+}
+
+.text2 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 700px;
+  font-size: 60px;
+  height: 195px;
+  line-height: 65px;
+  color: #ffffff;
+  font-family: arial;
+  letter-spacing: -2px;
+}
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 1570px;
+  background-image: url(./slide.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Сандалтай хэсэг */
+.products {
+  position: relative;
+}
+.wrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  position: absolute;
+  top: -150px;
+}
+.sandal {
+  display: flex;
+  justify-content: left;
+  align-items: top;
+  background-image: url(./Sofa.png);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: center;
+  border: 2px solid gray;
+  background-color: #f4f7fa;
+  width: 350px;
+  height: 406px;
+  padding: 24px;
+}
+
+.text3 {
+  justify-content: left;
+  align-items: top;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #161c2d;
+  font-family: arial;
+  letter-spacing: -0.5px;
+}
+
+.text3-1 {
+  justify-content: left;
+  align-items: top;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 29px;
+  color: #161c2d;
+  font-family: arial;
+  letter-spacing: -0.2px;
+}
